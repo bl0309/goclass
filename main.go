@@ -4,6 +4,6 @@ import "fmt"
 
 func main() {
 
-	fmt.Printf("I am a programmer.")
+	fmt.Printf("I am a programme.")
 
 }
