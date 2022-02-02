@@ -8,7 +8,9 @@ import (
 func main() {
 
 	// datastructure.Init()
-	structure.Init()
+	// structure.Init()
+	// structure.Init2()
+	structure.Init3()
 	// 	sumOfEvenOdd()
 	// 	maximumValue := max(8, 3)
 	// 	fmt.Println("max no: ", maximumValue)
