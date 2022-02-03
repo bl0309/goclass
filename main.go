@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/bl0309/goclass/structure"
+	"github.com/bl0309/goclass/goroutines"
 	//"error"
 )
 
@@ -10,7 +10,11 @@ func main() {
 	// datastructure.Init()
 	// structure.Init()
 	// structure.Init2()
-	structure.Init3()
+	// structure.Init3()
+	// goroutines.Init()
+	// goroutines.InitErrorStrategy()
+	goroutines.Init2()
+
 	// 	sumOfEvenOdd()
 	// 	maximumValue := max(8, 3)
 	// 	fmt.Println("max no: ", maximumValue)
