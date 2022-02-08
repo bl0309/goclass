@@ -1,0 +1,19 @@
+{
+"page": 1,
+"data": [{
+    "first_name" : "Bikram",
+    "last_name" : "Lamsal",
+    "age" : 26,
+    "married" : false,
+    "address" : {
+        "Street" : "3453 Creep Rd",
+        "City" : "Forthworth",
+        "County" : "Dallas",
+        "zip" : 75078
+    },
+    "phone" : [
+        {"home": "8376487639"},
+        {"office": "2345634577"}
+    ]
+    }]
+}

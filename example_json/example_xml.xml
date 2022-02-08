@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<first_name>Bikram</first_name>
+<last_name>Lamsal</last_name>
+<age>26</age>
+<married>false</married>
+<address>
+    <Street>3453 Creep Rd</Street>
+    <City>Forthworth</City>
+    <County>Dallas</County>
+    <zip>75078</zip>
+</address>
+<phone>
+    <home>8376487639</home>
+</phone>
+<phone>
+    <office>2345634577</office>
+</phone>

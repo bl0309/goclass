@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/bl0309/goclass/goroutines"
+	examplejson "github.com/bl0309/goclass/example_json"
 	//"error"
 )
 
@@ -13,7 +13,9 @@ func main() {
 	// structure.Init3()
 	// goroutines.Init()
 	// goroutines.InitErrorStrategy()
-	goroutines.Init2()
+	// goroutines.Init2()
+
+	examplejson.InitExampleJson()
 
 	// 	sumOfEvenOdd()
 	// 	maximumValue := max(8, 3)
