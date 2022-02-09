@@ -15,8 +15,9 @@ func main() {
 	// goroutines.InitErrorStrategy()
 	// goroutines.Init2()
 
-	examplejson.InitExampleJson()
-
+	// examplejson.InitExampleJson()
+	// examplejson.InitEgFile()
+	examplejson.InitFileWrite()
 	// 	sumOfEvenOdd()
 	// 	maximumValue := max(8, 3)
 	// 	fmt.Println("max no: ", maximumValue)
