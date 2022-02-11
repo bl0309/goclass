@@ -17,7 +17,10 @@ In your solution, focus on correctness. The performance of your solution will no
 
 package qnaarray
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+)
 
 func IntMin(a, b int) int {
 	if a < b {
@@ -26,9 +29,13 @@ func IntMin(a, b int) int {
 	return b
 }
 
-func CyclicRotate(A []int, K int) []int {
+func CyclicRotate(A []int, K int) ([]int, error) {
+	if K < 0 {
+		return nil, errors.New("K cannot be negative")
+	}
+
 	if K == 0 || len(A) == 0 || len(A) == 1 {
-		return A
+		return A, nil
 	}
 	length := len(A)
 	if K > length {
@@ -39,13 +46,12 @@ func CyclicRotate(A []int, K int) []int {
 
 	lhs := A[length-K : length]
 	fmt.Println("Value of lhs = ", lhs)
-	return append(lhs, A[0:length-K]...)
+	return append(lhs, A[0:length-K]...), nil
 
 	// length := len(A)
 	// if length > 0 {
 	// 	if K > length {
 	// 		K = K % length
-	// 	}
 	// 	A = append(A[length-K:length], A[0:length-K]...)
 	// }
 	// return A

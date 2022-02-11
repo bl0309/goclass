@@ -1,12 +1,13 @@
 package main
 
-import (
-	examplejson "github.com/bl0309/goclass/example_json"
-	//"error"
-)
+//"error"
 
 func main() {
 
+	// arraypractice.Init()
+	// initials.Init()
+	// initials.Max()
+	// initials.SumOfEvenOdd()
 	// datastructure.Init()
 	// structure.Init()
 	// structure.Init2()
@@ -14,10 +15,12 @@ func main() {
 	// goroutines.Init()
 	// goroutines.InitErrorStrategy()
 	// goroutines.Init2()
-
+	// formattingexample.InitFormattingExample()
 	// examplejson.InitExampleJson()
 	// examplejson.InitEgFile()
-	examplejson.InitFileWrite()
+	// examplejson.InitFileWrite()
+	// qnaarray.IntMin()
+
 	// 	sumOfEvenOdd()
 	// 	maximumValue := max(8, 3)
 	// 	fmt.Println("max no: ", maximumValue)
