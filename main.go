@@ -1,5 +1,9 @@
 package main
 
+import (
+	examplehttp "github.com/bl0309/goclass/example_http"
+)
+
 //"error"
 
 func main() {
@@ -20,6 +24,7 @@ func main() {
 	// examplejson.InitEgFile()
 	// examplejson.InitFileWrite()
 	// qnaarray.IntMin()
+	examplehttp.StatServer()
 
 	// 	sumOfEvenOdd()
 	// 	maximumValue := max(8, 3)
